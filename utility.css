@@ -1,0 +1,40 @@
+.i1{
+    transform: translate(-38vw);
+    animation:sld1 5s ease-in-out 1s infinite alternate;
+}
+.i2{
+    transform: translate(-33vw);
+    animation:sld2 5s ease-in-out 1s infinite alternate;
+}
+.i3{
+    transform: translate(-28vw);
+    animation:sld3 5s ease-in-out 1s infinite alternate;
+}
+.i4{
+    transform: translate(-22vw);
+    animation:sld4 5s ease-in-out 1s infinite alternate;
+}
+@keyframes sld1{
+    0%{ transform: translate(-38vw);
+    }
+    100%{transform:translate(22vw);
+    }
+}
+@keyframes sld2{
+    0%{ transform: translate(-33vw);
+    }
+    100%{transform:translate(27vw);
+    }
+}
+@keyframes sld3{
+    0%{ transform: translate(-28vw);
+    }
+    100%{transform:translate(32vw);
+    }
+}
+@keyframes sld4{
+    0%{ transform: translate(-22vw);
+    }
+    100%{transform:translate(37vw);
+    }
+}

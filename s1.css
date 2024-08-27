@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-bg-color: rgb(187, 165, 140);
+    /* by using this you can change color for whole background.(Using this technique to make your website light or dark mode on a click of a button) */
+}
+header{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: rgb(81, 4, 158);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    /* for setting items in center of header,put the height same as the header height so that items will align in center */
+}
+nav ul li {
+    list-style: none;
+    padding: 0 1vh;
+}
+nav ul li a{
+    color: rgb(235, 70, 70);
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(229, 218, 218);
+    font-weight: bolder;
+}
+.srch{
+    display: flex;
+    align-items: center;
+}
+.srch input{
+    width: 30vw;
+    height: 5vh;
+    margin: 0 1vh 0 5vw;
+    border-radius: 1vw;
+    border: 0.5vh solid whitesmoke;
+}
+.btn{
+    background-color: var(--main-bg-color);
+    color: white;
+    padding:0.1vh 0.1vw;
+    border-radius: 0.5vw;
+    border: 0.5vh solid whitesmoke;
+    cursor: pointer;
+}
+main{
+    min-height:calc(100vw-header-footer);
+    background-color:rgb(210, 207, 201);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    overflow: hidden;
+    /* to hide the overridden thing */
+    margin: auto; 
+    padding: 1vh 0;
+}
+.card{
+    border: 0.5vh solid rgb(245, 239, 239);
+}
+.my-1{  
+    margin: 1.5vh 0;
+}
+.total_crd_itms{
+    display:flex;
+    overflow-x: scroll;
+}
+.card-items{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 2.5vh;
+    margin: 0 1vh;
+}
+.im1{
+    border: 0.05vh solid rgb(193, 191, 191);
+}
+.my-2{
+    display: block;
+    margin:0.5vh;
+}
+.txt-ctr{
+    text-align: center;
+    font-size: 2.5vh;
+}
+.flex-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-color);
+    color: rgb(243, 250, 250);
+    font-family: "Lato", sans-serif;
+}
+
